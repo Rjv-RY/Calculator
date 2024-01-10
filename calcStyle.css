@@ -1,91 +1,91 @@
-.overlord{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    width: auto;
-    height: auto;
+.overlord {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  width: auto;
+  height: auto;
 }
 
-body{
-    background: linear-gradient(to left, rgb(85, 85, 255), rgb(255, 113, 113));
+body {
+  background: linear-gradient(to left, rgb(85, 85, 255), rgb(255, 113, 113));
 }
 
-.device{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
-    background-color: rgb(211, 65, 65);
-    width: fit-content;
-    border: 3px solid black;
-    border-radius: 19px;
-    padding: 0.70%;
+.device {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  background-color: rgb(211, 65, 65);
+  width: fit-content;
+  border: 3px solid black;
+  border-radius: 19px;
+  padding: 0.7%;
 }
 
-#title{
-    color: rgb(155, 99, 155);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    background-color: rgb(0, 0, 0);
-    border-radius: 7px;
-    padding: 5px;
-    border: 2px solid black;
-    /*text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+#title {
+  color: rgb(155, 99, 155);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: gold;
+  border-radius: 7px;
+  padding: 5px;
+  border: 2px solid black;
+  /*text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
     1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
-    this one provides an overall order effect which is honestly kinda 
+    this one provides an overall border effect which is honestly kinda 
     underwhelming for how many values it has*/
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 255), 0 0 0.2em rgb(0, 0, 255);
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 255), 0 0 0.2em rgb(0, 0, 255);
 }
 
-button{
-    font-size: larger;
-    font-weight: 700;
-    border: 2px solid black;
-    border-radius: 15px;
-    color: rgb(70, 3, 87);
-    height: 70px;
-    width: 70px;
-    margin: 5px;
-    padding: 5px;
-    background-color: gold;
+button {
+  font-size: larger;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: rgb(70, 3, 87);
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  padding: 5px;
+  background-color: gold;
 }
 
-button:hover{
-    transform: scale(1.21)
+button:hover {
+  transform: scale(1.21);
 }
 
-button:active{
-    transform: scale(0.98);
+button:active {
+  transform: scale(0.98);
 }
 
-#clear{
-    width: 100px;
+#clear {
+  width: 100px;
 }
 
-.display{
-    width: 300px;
-    height: 80px;
-    background-color:darkslategray;
-    border: 2px solid black;
-    color: rgb(0, 255, 242);
-    border-radius: 17px;
-    padding-bottom: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 0;
-    margin-bottom: 8px;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+.display {
+  width: 300px;
+  height: 80px;
+  background-color: darkslategray;
+  border: 2px solid black;
+  color: rgb(0, 255, 242);
+  border-radius: 17px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
 }
 
-#output{
-    font-size: 30px;
-    margin-top: 10px;
+#output {
+  font-size: 30px;
+  margin-top: 10px;
 }
 
-#equation{
-    margin-bottom: 5px;
-    font-size: 20px;
-    font-style: italic;
+#equation {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-style: italic;
 }
